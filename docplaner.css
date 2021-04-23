@@ -1,0 +1,117 @@
+body {
+  font-family: sans-serif;
+  color: grey;
+  max-width: 1050px;
+  margin: auto;
+}
+a {
+  color: grey;
+  text-decoration: none;
+}
+.active {
+  color: #00ccb1;
+}
+.docplanner-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+.introduction-logo {
+  width: 50px;
+  height: 50px;
+  background-color: #00ccb1;
+}
+.introduction-title {
+  color: #00ccb1;
+}
+.introduction-text {
+  display: flex;
+}
+.introduction-paragraph {
+  margin: 10px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+.service-card {
+  padding: 20px;
+  border-radius: 9px;
+  color: white;
+  margin: 10px;
+  position: relative;
+  flex-grow: 1;
+  height: 200px;
+}
+.service-card-patients {
+  background-color: #00ccb1;
+}
+.service-card-doctors {
+  background-color: #1662c6;
+}
+.service-class-select {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.service-class-image {
+  width: 140px;
+  height: 110px;
+  background-color: white;
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+}
+
+/***************************/
+.improve-live {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imp-title {
+  text-align: center;
+  color: #00ccb1;
+}
+.improve-text {
+  text-align: center;
+  font-size: medium;
+}
+.places {
+  display: flex;
+  flex-wrap: wrap;
+}
+.places-to-visit {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+}
+.ident-img {
+  display: flex;
+  justify-content: space-between;
+}
+.img-place {
+  border: black solid;
+  border-radius: 10px;
+}
+.img-opn {
+  font-size: x-small;
+  border-radius: 8px;
+  background-color: #3d83df;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.see-op {
+  color: white;
+}
